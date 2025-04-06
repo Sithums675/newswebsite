@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #6d4d38;
+  }
+  .header {
+    padding: 30px;
+    text-align: left;
+    background: beige;
+  }
+  .header h1 {
+    font-size: 80px;
+    font-family: ALGERIAN;
+    font-weight: 1000;
+    color: #6d4d38;
+  }
+  marquee{
+    background-color: rgb(85, 53, 188);
+    height: 50px;
+    width: 100%;
+    font-size: 45px;
+    font-family: Berlin Sans FB Demi;
+    font-style: bold;
+    font-weight: 950;
+    color: red;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #090909;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #d71919;
+    text-align: center;
+    font-size: 28PX;
+    font-family: Berlin Sans FB Demi;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: #09e447;
+    color: rgb(255, 0, 0);
+  }
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color:#6d4d38;
+    padding-left: 20px;
+  }
+  .fakeimg {
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+  }
+  .eimg {
+    background-image: url(cy.jpg);
+    width: 100%;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+  }
+  .card {
+    background-color: beige;
+    padding: 20px;
+    margin-top: 20px;
+  }
